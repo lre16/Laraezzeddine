@@ -58,7 +58,7 @@ total_cases_deaths_covid= px.scatter(df.head(30), x='TotalCases', y= 'TotalDeath
 total_cases_deaths_covid.update_layout(xaxis_title='Total Covid Cases',yaxis_title='Death rate')
 st.plotly_chart(total_cases_deaths_covid,use_container_width=False)
 
-st.subheader("Covid Map showing Death recorder from January 2020 to July 2020 per region")
+st.subheader("Covid Map showing Death recorded from January 2020 to July 2020 per region")
 map_visual_covid_death=px.choropleth(df1,
               locations='iso_alpha',
               color="New deaths",
