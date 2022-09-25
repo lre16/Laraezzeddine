@@ -14,7 +14,6 @@ import streamlit as st
 
 df=pd.read_csv("covid.csv")
 
-
 df1=pd.read_csv("covid_grouped.csv")
 
 st.subheader(" Covid data as per Continent")
