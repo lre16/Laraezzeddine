@@ -13,9 +13,9 @@ import plotly.offline as py
 import plotly.figure_factory as ff
 import streamlit as st
 
-df=pd.read_csv("C:/Users/AUB/OneDrive/OneDrive - American University of Beirut/Desktop/pages/pages/covid.csv")
+df=pd.read_csv("covid.csv")
 
-df1=pd.read_csv("C:/Users/AUB/OneDrive/OneDrive - American University of Beirut/Desktop/pages/pages/covid_grouped.csv")
+df1=pd.read_csv("covid_grouped.csv")
 
 
 st.header("Covid Demo per Region")
