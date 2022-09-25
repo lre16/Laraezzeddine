@@ -14,7 +14,7 @@ st.subheader("Assignment MSBA325- Data Visualization & Communication")
 st.subheader("Student:Lara Ezzeddine/ID 202373146" )
 
 
-image = Image.open("C:/Users/AUB/OneDrive/OneDrive - American University of Beirut/Desktop/pages/covid-4948866_1920-1200x803.jpg")
+image = Image.open("https://github.com/lre16/Laraezzeddine/blob/master/covid-4948866_1920-1200x803.jpg")
 
 st.image(image)
 
